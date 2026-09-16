@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>정책캐치 (Catch) - AI 기반 2030 청년 맞춤형 정책 플랫폼</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --primary-light: #eff6ff;
+            --text-dark: #1e293b;
+            --text-muted: #64748b;
+            --bg-light: #f8fafc;
+            --border-color: #e2e8f0;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Malgun Gothic', sans-serif; }
+        body { color: var(--text-dark); line-height: 1.6; background-color: #fff; }
+        
+        /* Header */
+        header { background: linear-gradient(135deg, #1e40af 0%, #2563eb 100%); color: white; text-align: center; padding: 80px 20px; }
+        header h1 { font-size: 2.5rem; margin-bottom: 15px; font-weight: 700; }
+        header p { font-size: 1.2rem; opacity: 0.9; max-width: 700px; margin: 0 auto; }
+
+        /* Container */
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+
+        /* Section */
+        section { margin-bottom: 50px; }
+        h2 { font-size: 1.8rem; color: var(--primary-color); border-bottom: 2px solid var(--primary-light); padding-bottom: 10px; margin-bottom: 25px; }
+        
+        /* Problem Cards */
+        .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+        .card { background: var(--bg-light); border: 1px solid var(--border-color); padding: 25px; border-radius: 12px; transition: transform 0.2s; }
+        .card:hover { transform: translateY(-3px); }
+        .card h3 { margin-bottom: 12px; color: #1e3a8a; font-size: 1.2rem; }
+
+        /* Solution List */
+        .solution-item { background: var(--primary-light); border-left: 5px solid var(--primary-color); padding: 20px; margin-bottom: 15px; border-radius: 0 8px 8px 0; }
+        .solution-item h3 { color: var(--primary-color); margin-bottom: 8px; }
+
+        /* Business Model Table */
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; background: white; border-radius: 8px; overflow: hidden; border: 1px solid var(--border-color); }
+        th, td { padding: 15px; text-align: left; border-bottom: 1px solid var(--border-color); font-size: 0.95rem; }
+        th { background-color: var(--primary-color); color: white; }
+        tr:last-child td { border-bottom: none; }
+        tr:hover { background-color: var(--bg-light); }
+
+        /* Roadmap */
+        .roadmap-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+        .phase-box { background: white; border: 2px solid var(--primary-color); border-radius: 10px; padding: 20px; text-align: center; }
+        .phase-box h3 { color: var(--primary-color); margin-bottom: 10px; }
+
+        /* Footer */
+        footer { background: #0f172a; color: white; text-align: center; padding: 30px 20px; margin-top: 60px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>정책캐치 (Catch)[span_1](start_span)[span_1](end_span)</h1>
+        <p>AI 기반 2030 청년 맞춤형 정책·복지·혜택 통합 플랫폼[span_2](start_span)[span_2](end_span)</p>
+    </header>
+
+    <div class="container">
+
+        <!-- 1. 문제인식 -->
+        <section>
+            <h2>1. 문제인식 (창의성 및 필요성)</h2>
+            <div class="grid-2">
+                <div class="card">
+                    <h3>🔍 정책 정보의 파편화 및 복잡성</h3>
+                    <p>주거 지원, 취업 지원금, 자산 형성 등 청년 정책이 부처별로 흩어져 있고 조건이 복잡해 수혜를 놓치는 사각지대 발생[span_3](start_span)[span_3](end_span)</p>
+                </div>
+                <div class="card">
+                    <h3>⏳ 마감 놓침 및 실전 정보 부재</h3>
+                    <p>공고 마감일을 제때 알지 못하거나, 서류 통과 등 신뢰도 높은 경험 공유 창구가 부족한 문제 직면[span_4](start_span)[span_4](end_span)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. 아이디어 개요 -->
+        <section>
+            <h2>2. 아이디어 개요</h2>
+            <div class="card" style="background: var(--primary-light);">
+                <h3>💡 초개인화 통합 플랫폼 '정책캐치[span_5](start_span)'[span_5](end_span)</h3>
+                <p>생성형 AI 기술을 활용하여 사용자(청년)의 조건(소득 분위, 거주지, 고용 형태 등)을 분석해 꼭 맞는 정책과 복지를 원스톱으로 매칭[span_6](start_span)[span_6](end_span)</p>
+                <ul style="margin-top: 10px; padding-left: 20px;">
+                    <li><strong>AI 초개인화 기술 연계:</strong> RAG 기술로 일상 언어 질문을 실시간 분석해 최적의 혜택 1:1 큐레이션[span_7](start_span)[span_7](end_span)</li>
+                    <li><strong>독창적 융합 모델:</strong> AI 큐레이션 + 경험 인증 기반 멘토링 + 긴급성 기반 맞춤 알림 생태계 구축[span_8](start_span)[span_8](end_span)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 3. 해결방안 -->
+        <section>
+            <h2>3. 핵심 해결방안</h2>
+            <div class="solution-item">
+                <h3>🎯 AI 초개인화 정책 큐레이션 (동적 UI)</h3>
+                <p>공고문을 AI가 분석해 직관적인 필터를 제공하며, 대전 등 특정 지역 선택 시 '실거주 기간' 필터가 추가되는 조건부 렌더링 UI 적용[span_9](start_span)[span_9](end_span)</p>
+            </div>
+            <div class="solution-item">
+                <h3>🤝 경험 인증 기반 청년 멘토링 매칭</h3>
+                <p>청년창업지원금 수혜자, LH 주택 당첨자 등 '실제 경험'이 인증된 선배 멘토와 AI를 통한 1:1 매칭으로 실전 팁 전수[span_10](start_span)[span_10](end_span)</p>
+            </div>
+            <div class="solution-item">
+                <h3>📄 행정 서류 연계 발급 및 AI 첨삭</h3>
+                <p>증빙 서류 원클릭 대행 발급 및 AI 기반 자기소개서·사업계획서 초안 맞춤형 교정 제공[span_11](start_span)[span_11](end_span)</p>
+            </div>
+        </section>
+
+        <!-- 4. 비즈니스 모델 -->
+        <section>
+            <h2>5. 비즈니스 모델 (BM)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>구분</th>
+                        <th>타겟 대상</th>
+                        <th>핵심 제공 혜택 및 서비스</th>
+                        <th>과금 방식</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>B2C (무료)</strong></td>
+                        <td>일반 사용자</td>
+                        <td>기본 맞춤 혜택 요약 알림(일 1회), 멘토링 족보 및 단건 결제 이용[span_12](start_span)[span_12](end_span)</td>
+                        <td>건당 소액 과금 (마이크로 트랜잭션)[span_13](start_span)[span_13](end_span)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>B2C (구독)</strong></td>
+                        <td>정책캐치 패스 회원</td>
+                        <td>신규 공고 실시간 알림, 인증 선배 멘토링(월 5회), 서류 대행 및 AI 첨삭(월 3회) 무료[span_14](start_span)[span_14](end_span)</td>
+                        <td>월 정기 구독료 (3,900 ~ 4,900원)[span_15](start_span)[span_15](end_span)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>B2B / B2G</strong></td>
+                        <td>지자체 및 기업</td>
+                        <td>2030 맞춤형 설문조사 리포트 판매 및 금융·부동산·교육 기업 AI 맞춤 타겟 광고[span_16](start_span)[span_16](end_span)</td>
+                        <td>CPC/CPM 및 데이터 판매비[span_17](start_span)[span_17](end_span)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- 5. 향후 추진계획 -->
+        <section>
+            <h2>6. 향후 추진계획 (로드맵)</h2>
+            <div class="roadmap-grid">
+                <div class="phase-box">
+                    <h3>Phase 1</h3>
+                    <p>대전 지역 2030 청년 대상 MVP 서비스 런칭 (무료 및 구독 패스 Test-Bed 운영)[span_18](start_span)[span_18](end_span)</p>
+                </div>
+                <div class="phase-box">
+                    <h3>Phase 2</h3>
+                    <p>구독 모델 고도화, B2C 단건 결제 안정화 및 맞춤 타겟 광고(B2B) 도입[span_19](start_span)[span_19](end_span)</p>
+                </div>
+                <div class="phase-box">
+                    <h3>Phase 3</h3>
+                    <p>전국 지자체 권역 확대 및 '정부 청년정책 공식 위탁 플랫폼'으로 도약[span_20](start_span)[span_20](end_span)</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 정책캐치(Catch) All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
